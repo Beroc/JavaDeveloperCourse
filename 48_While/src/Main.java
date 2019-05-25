@@ -41,7 +41,7 @@ public class Main {
         while(number <= finishNumber){
             number ++;
             if(!isEvenNumber(number)){
-                continue;
+                continue; // back to the condition of the while loop
             }
             evenNumbersFound++;
             System.out.println("Even number: " + number);
